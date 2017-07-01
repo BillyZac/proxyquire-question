@@ -1,0 +1,20 @@
+{
+  "name": "proxyquire-question",
+  "version": "1.0.0",
+  "description": "Demonstrates a question I have with proxyquire and ES6 import/export syntax.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "babel-node fetchBuilds.test.js",
+    "broken-test": "babel-node fetchBuilds-2.test.js"
+  },
+  "author": "Zachary Smith",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "isomorphic-fetch": "^2.2.1",
+    "proxyquire": "^1.8.0",
+    "tape": "^4.7.0"
+  }
+}
